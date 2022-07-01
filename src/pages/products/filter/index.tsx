@@ -1,4 +1,3 @@
-import React from 'react';
 import { TFilterData, TParameterNameOfFilterOpts, TTypes } from '..';
 import ListColor from '../../../components/ListColor/ListColor';
 import MultipleColor from '../../../components/ListColor/MultipleColor';
@@ -41,7 +40,7 @@ const Filter = ({
         <ListColor>
           <MultipleColor
             colors={COLORS}
-            selectedColors={filterValues.color||[]}
+            selectedColors={filterValues.colors}
             setSelectedColors={changeFilterValues}
             disable={disable}
           />
@@ -51,7 +50,7 @@ const Filter = ({
       <div className='filter-item filter__has-pd'>
         <PriceRange
           disable={disable}
-          priceRange={filterValues.price||0}
+          priceRange={filterValues.price}
           setPriceRange={changeFilterValues}
         />
       </div>

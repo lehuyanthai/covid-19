@@ -1,15 +1,15 @@
 import axios from 'axios';
-import _, { filter } from 'lodash';
+import _, { intersection, uniq } from 'lodash';
 import { useEffect, useState } from 'react';
 import Grid from '../../components/Grid';
 import { IProduct } from '../../components/ProductItem';
 import Spinner from '../../components/Spinner';
-import { API_ROOT, COLORS, EMPTY_FILTER_DATA } from '../../constant';
+import { API_ROOT, EMPTY_FILTER_DATA } from '../../constant';
 import Filter from './filter';
 
 import './styles.scss';
 
-export type TTypes = number | string | string[] | null;
+export type TTypes = number | string | string[];
 
 export type TFilterOptionsDictionary = {
   [key: string]: TTypes;
@@ -18,9 +18,9 @@ export type TFilterOptionsDictionary = {
 export type TParameterNameOfFilterOpts = keyof typeof EMPTY_FILTER_DATA;
 
 export type TFilterData = TFilterOptionsDictionary & {
-  color: string[] | null;
-  price: number | null;
-  category: string | null;
+  colors: string[];
+  price: number;
+  category: string;
 };
 
 const Products = () => {
@@ -47,56 +47,45 @@ const Products = () => {
   }, []);
 
   useEffect(() => {
-    console.log(productData);
-    console.log(filters);
-
-    // const newFilterData = productData;
-    // _.chain(newFilterData).filter()
-    // _.filter(newFilterData,{category:filters.category})
-
     if (filters && _.size(filters) > 0) {
-      const isInvalidFilter = _.values(filters).every((value) => !value);
-      console.log(isInvalidFilter);
+      const { category, colors: targetColors, price } = filters;
+
+      const isInvalidFilter = _.isEqual(filters, EMPTY_FILTER_DATA);
 
       if (isInvalidFilter) {
         setFilterData(productData);
         return;
       }
 
-      const { category, color: targetColors, price } = filters;
+      let filteredCategoryData: IProduct[] = productData;
+      let filteredPriceData: IProduct[] = productData;
+      let filteredColorData: IProduct[] = productData;
+      if (category.length) {
+        filteredCategoryData = productData.filter(
+          (item) => item.category === category
+        );
+      }
 
-      // ? 1,2,3
+      filteredPriceData = productData.filter((item) => item.price <= price);
 
-      const primaryData = productData.filter(
-        (item) => item.category === category ?? ''
-      );
-      console.log(primaryData);
-
-      const secondFloor = primaryData.filter(
-        (item) => item.price <= (price ?? 100)
-      );
-      // .filter((item) => item.price <= filters.price || 0);
-      console.log(secondFloor);
-
-      let finalResult: IProduct[] = [];
-
-      _.forEach(secondFloor, (item) => {
-        const { colors: sourceColors } = item;
-        _.forEach(sourceColors, (color) => {
-          if (targetColors && _.size(targetColors) > 0) {
-            if (targetColors.includes(color)) {
-              finalResult.push(item);
-            }
-          } else {
-            finalResult.push(item);
-          }
+      if (targetColors.length) {
+        filteredColorData = [];
+        targetColors.forEach((item) => {
+          const colorData = productData.filter(({ colors }) =>
+            colors.includes(item)
+          );
+          filteredColorData = uniq([...filteredColorData, ...colorData]);
         });
-      });
+        console.log(filters.colors, filteredColorData);
+      }
 
-      finalResult = _.uniq(finalResult);
-      console.log(finalResult);
+      const filterData = intersection(
+        filteredCategoryData,
+        filteredColorData,
+        filteredPriceData
+      );
 
-      setFilterData(finalResult);
+      setFilterData(filterData);
     }
   }, [filters, productData]);
 
@@ -131,7 +120,7 @@ const Products = () => {
         <div className='products__section--content'>
           <div className='filter-container'>
             <Filter
-              disable={_.size(filterData) === 0}
+              disable={false}
               smallSize
               filterValues={filters}
               changeFilterValues={changeFilterValues}

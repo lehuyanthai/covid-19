@@ -130,7 +130,7 @@ export const PAYMENT_METHODS = {
 export const API_ROOT = 'http://localhost:8000';
 
 export const EMPTY_FILTER_DATA = {
-  color: null,
-  price: null,
-  category: null
+  colors: [],
+  price: 100,
+  category: ''
 };

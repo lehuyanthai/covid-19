@@ -30,9 +30,9 @@ const MultipleColor = ({
   const onChange = (color: string) => {
       if (isSelected(color)) {
         const updatedColors = selectedColors.filter((item) => item !== color);
-        setSelectedColors('color', updatedColors);
+        setSelectedColors('colors', updatedColors);
       } else {
-        setSelectedColors('color', [...selectedColors, color]);
+        setSelectedColors('colors', [...selectedColors, color]);
       }
   };
 

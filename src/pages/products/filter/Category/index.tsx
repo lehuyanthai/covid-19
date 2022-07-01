@@ -6,8 +6,8 @@ import { AddIcon } from '../../../../icons';
 import './styles.scss';
 
 interface IFilterCategory {
-  selectedCategory: string | null;
-  setSelectedCategory:(
+  selectedCategory: string;
+  setSelectedCategory: (
     type: TParameterNameOfFilterOpts,
     value: TTypes
   ) => void;
@@ -17,8 +17,19 @@ const FilterCategory = ({
   selectedCategory,
   setSelectedCategory,
 }: IFilterCategory) => {
+  const handleClick = (category: string) => {
+    if (selectedCategory !== category) {
+      setSelectedCategory('category', category);
+    } else {
+      setSelectedCategory('category', '');
+    }
+  };
   const renderedCategories = CATEGORIES.map((item) => (
-    <div className='filter-category__item filter-item' key={item.name} onClick={() => setSelectedCategory("category",item.name)}>
+    <div
+      className='filter-category__item filter-item'
+      key={item.name}
+      onClick={() => handleClick(item.name)}
+    >
       <div
         className={clsx({
           'filter-category__item--label': true,
@@ -27,7 +38,7 @@ const FilterCategory = ({
       >
         {item.label}
       </div>
-      <AddIcon/>
+      <AddIcon />
     </div>
   ));
 
