@@ -1,0 +1,12 @@
+.order-item{
+    display: flex;
+    gap: 27px;
+    padding: 18px 25px;
+
+    &__right-side{
+        flex:1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

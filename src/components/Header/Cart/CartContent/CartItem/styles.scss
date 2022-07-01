@@ -1,0 +1,29 @@
+.cart-item {
+  display: flex;
+  gap: 24px;
+
+  &__right-side {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--info {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      width: 33%;
+    }
+  }
+  &:nth-child(n) {
+    border-bottom: 1px solid #E9E9E9;
+    padding: 26px 45px;
+  }
+  &:last-child {
+    padding-bottom: 0 !important;
+    border: none;
+  }
+  &:first-child {
+    padding-top: 0 !important;
+  }
+}

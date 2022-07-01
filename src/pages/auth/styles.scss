@@ -1,0 +1,31 @@
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__wrapper {
+    width: 67%;
+    height: 770px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    border: solid 1px #dedcdc;
+    margin: 120px;
+
+    &--left-side {
+      padding: 75px 20px 0;
+      height: 100%;
+      background-color: #fff7f5;
+      border-right: 1px solid #DEDCDC;
+      img {
+        object-fit: cover;
+      }
+    }
+
+    &--right--side {
+      width: 100%;
+      flex: 1;
+    }
+  }
+}

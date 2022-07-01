@@ -1,0 +1,9 @@
+.product-listColor {
+  display: flex;
+  gap: 30px 30px;
+  &__label {
+    font-family: 'Nirmala UI';
+    font-size: 20px;
+    font-weight: 700;
+  }
+}

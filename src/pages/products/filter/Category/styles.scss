@@ -1,0 +1,30 @@
+.filter-category {
+  &__label {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Nirmala UI';
+    padding: 17px 30px 20px;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+
+    &--label {
+      display: flex;
+      align-items: center;
+      height: 70px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    .category-selected{
+      color: #FF6D33;
+    }
+  }
+  .has-bottom-border {
+    border-bottom: rgb(112, 112, 112, 0.1) solid 1px;
+  }
+}

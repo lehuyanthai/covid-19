@@ -1,0 +1,8 @@
+.product-rating {
+    display: flex;
+    gap: 15px;
+    &__amount {
+        font-size: 16px;
+        color: #989898;
+      }
+}

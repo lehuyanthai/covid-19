@@ -1,0 +1,22 @@
+.shipping-address {
+  border: #DEDCDC solid 1px; 
+  border-bottom: none;
+    padding: 21px 50px 15px;
+  &__label {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 23px;
+  }
+
+  &__add-new-address{
+    display: flex;
+    align-items: center;
+    color: #FF6D33;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    span{
+        margin-left: 25px;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.products {
+
+    &__header {
+        height:300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #FFF7F5;
+        margin-bottom: 110px;
+
+        &--title{
+            font-size: 52px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            font-family: 'Nirmala UI';
+        }
+
+        &--description{ 
+            font-size: 30px;
+            margin-bottom: 16px;
+        }
+    }
+
+    &__section{
+        margin-bottom: 40px;
+
+        &--title{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &--content {
+            display: flex;
+            padding: 0 170px;
+            gap: 30px;
+
+            .filter-container{
+                flex:0.25;
+                background-color: #F5F5F5;
+            }
+
+            .grid-products{
+                gap: 30px;
+                flex: 0.75;
+            }
+        }
+
+    }
+}

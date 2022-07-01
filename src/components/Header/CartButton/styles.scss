@@ -1,0 +1,26 @@
+.header__item--cart {
+    position: relative;
+    background-color: #fff;
+    margin-right: 40px;
+    color: #3a393e;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    cursor: pointer;
+
+    .badge {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      height: 14px;
+      padding: 2px 5px;
+      border-radius: 50px;
+      font-size: 8px;
+      font-weight: 600;
+      color: #fff;
+      background-color: #ff6d33;
+    }
+  }

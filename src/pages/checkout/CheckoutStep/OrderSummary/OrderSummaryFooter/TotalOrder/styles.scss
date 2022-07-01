@@ -1,0 +1,13 @@
+.total-order {
+  margin: 10px auto;
+  width: 264px;
+  height: 60px;
+  background-color: rgb(195, 10, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    font-size: 18px;
+  }
+}

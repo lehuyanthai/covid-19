@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1920px;
+  background-color: #fff7f5;
+  padding: 20px 9.2%;
+  position: sticky;
+  width: 100%;
+  z-index: 9;
+  top: 0;
+  left: 0;
+
+  &__logo{
+    cursor: pointer;
+  }
+
+  &__list {
+    display: flex;
+    height: 60px;
+    align-items: center;
+
+    &--item {
+      color: #3a393e;
+      margin-right: 70px;
+      font-size: 19px;
+      font-weight: 400;
+      text-decoration: none;
+      cursor: pointer;
+      &:hover {
+        color: #ff6d33;
+      }
+    }
+
+    &--button {
+      cursor: pointer;
+      width: 160px;
+      height: 64px;
+    }
+  }
+}

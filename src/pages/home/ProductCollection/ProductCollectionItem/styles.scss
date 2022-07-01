@@ -1,0 +1,38 @@
+.product-collection-item {
+  //   flex: 1 1 0;
+  height: max-content;
+  min-height: 334px;
+  width: 33.3%;
+  position: relative;
+  // background-image: url('../../../../assets/images/collection1.png');
+  // background-size: contain;
+  // background-repeat: no-repeat;
+  // padding: 40px 30px;
+  img {
+    width: 100%;
+  }
+  .content {
+    position: absolute;
+    top:40px;
+    left:30px;
+
+    &__name {
+      width: 70%;
+      color: #3a393e;
+      font-family: 'Nirmala';
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+
+    &__sale-off {
+      font-size: 22px;
+      margin-bottom: 48px;
+    }
+
+    &__btn {
+      width: 167px;
+      height: 64px;
+    }
+  }
+}

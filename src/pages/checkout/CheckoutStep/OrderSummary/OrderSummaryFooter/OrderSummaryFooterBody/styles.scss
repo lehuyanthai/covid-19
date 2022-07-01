@@ -1,0 +1,9 @@
+.order-summary-footer-body {
+    display: flex;
+    justify-content: space-between; 
+  &__side {
+    &--item {
+      margin-bottom: 14px;
+    }
+  }
+}

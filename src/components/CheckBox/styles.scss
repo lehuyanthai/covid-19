@@ -1,0 +1,16 @@
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 60px;
+    
+    input{
+        width: 40px;
+        height: 40px;
+        border: solid 1px #DEDCDC;
+    }
+    span{
+        font-size: 18px;
+        color: #7A7A7A;
+    }
+  }

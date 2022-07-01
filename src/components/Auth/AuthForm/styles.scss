@@ -1,0 +1,58 @@
+.auth-form {
+  width: 100%;
+  padding-right: 60px;
+  &__title {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Nirmala UI';
+    margin-bottom: 18px;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    color: #686868;
+    margin-bottom: 47px;
+  }
+  
+  &__error{
+    color: red;
+  }
+
+  &__button {
+    margin: 35px 0 40px;
+    width: 175px;
+    height: 60px;
+  }
+
+  .sign-up-btn {
+    width: 235px;
+  }
+
+  &__flex {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__footer {
+    font-size: 18px;
+    span {
+      color: #ff6d33;
+      cursor: pointer;
+    }
+  }
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(8, 8, 8, 0.6);
+  .spinner {
+    position: fixed;
+    top: 45%;
+    left: 45%;
+  }
+}

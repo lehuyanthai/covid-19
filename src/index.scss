@@ -1,0 +1,34 @@
+$color-primary :#FF6D33;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'SourceSansPro';
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url('./assets/fonts/SourceSansPro-Light.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url('./assets/fonts/SourceSansPro-Semibold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url('./assets/fonts/SourceSansPro-Bold.otf');
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: Nirmala;
+  src: url('./assets/fonts/Nirmala.ttf');
+}

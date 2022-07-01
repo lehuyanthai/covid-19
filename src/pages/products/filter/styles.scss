@@ -1,0 +1,17 @@
+.filter {
+  padding-bottom: 80px;
+  &-item {
+    border-bottom: rgb(112, 112, 112, 0.1) solid 1px;
+  }
+
+  &__label {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Nirmala UI';
+    padding: 17px 30px 20px;
+  }
+
+  &__has-pd {
+    padding: 20px 30px;
+  }
+}

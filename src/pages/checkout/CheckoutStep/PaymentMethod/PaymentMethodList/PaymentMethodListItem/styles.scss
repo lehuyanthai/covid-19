@@ -1,0 +1,17 @@
+.payment-method-list-item {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: #dedcdc solid 1px;
+  color: #434a5a;
+  padding: 14px 17px;
+  cursor: pointer;
+}
+
+.method-active {
+  color: #c30a00;
+  background-color: rgb(195, 10, 0, 0.1);
+  border:#E2E2E2 solid 1px;
+}

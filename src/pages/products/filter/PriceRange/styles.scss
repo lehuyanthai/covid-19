@@ -1,0 +1,35 @@
+.slider-container {
+  width: 100%;
+  
+  .slider {
+    -webkit-appearance: none; /* Override default CSS styles */
+    appearance: none;
+    width: 100%; 
+    height: 6px;
+    background: #fff; 
+    outline: none; 
+
+
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none; 
+      appearance: none;
+      width: 25px; 
+      height: 25px; 
+      background: #FF6D33;
+      border-radius: 50%;
+      border: solid 2px rgb(255, 255, 255);
+      cursor: pointer;
+    }
+
+    &::-moz-range-thumb {
+      width: 25px; 
+      height: 25px; 
+      background: #FF6D33; 
+      cursor: pointer;
+    }
+  }
+
+  .slider-disable{
+    opacity: 0.3;
+  }
+}

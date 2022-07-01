@@ -1,0 +1,16 @@
+.product-item__body{
+    &--name{
+        font-size: 24px;
+        margin-bottom: 18px;
+    }
+
+    &--description{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left-side{
+            display: flex;
+            align-items: center;     
+        }
+    }
+}

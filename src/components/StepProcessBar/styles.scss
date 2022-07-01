@@ -1,0 +1,29 @@
+
+
+.process {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:0 290px;
+  margin-bottom: 45px;
+  &__step {
+    position: relative;
+    
+    &--label {
+      width: max-content;
+      position: absolute;
+      bottom: -30px;
+      transform: translateX(-30%);
+    }
+  }
+
+  &__line {
+    background-color: #f3eeee;
+    height: 2px;
+    width: 100%;
+  }
+
+  .line-active{
+    background-color: #FF6D33;
+  }
+}

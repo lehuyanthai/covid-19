@@ -1,0 +1,26 @@
+.confirm-delivery {
+  margin-bottom: 60px;
+  .order-number {
+    border: 1px solid #DEDCDC;
+    padding: 22px 30px;
+    .heading{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .number{
+        color:#7A7A7A;
+        font-size: 18px;
+    }
+  }
+  &__item {
+    border: 1px solid #DEDCDC;
+    padding: 22px 30px;
+    border-top: none;
+
+    &--title {
+      font-size: 26px;
+      font-weight: bold;
+      margin-bottom: 21px;  
+    }
+  }
+}

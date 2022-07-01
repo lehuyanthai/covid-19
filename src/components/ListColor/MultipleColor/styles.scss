@@ -1,0 +1,27 @@
+.list-color{
+    display: flex;
+    gap: 16px;
+
+    &__item{
+        border-radius: 50%;
+          border: none;
+        //   margin: 14px;
+          height: 35px;
+          width: 35px;
+          cursor: pointer;
+    }
+
+    .selected {
+        border: solid 2px rgb(255, 255, 255);
+        padding: 10px;
+        box-shadow: 0px 0px 6px rgb(0, 0, 0,0.12);
+    }
+
+    .small-size{
+        height: 30px;
+        width: 30px;
+    }
+    .disable{
+        opacity: .3;
+    }
+}

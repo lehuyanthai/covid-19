@@ -1,0 +1,19 @@
+.circle {
+  border-radius: 50%;
+  min-width: 30px;
+  width: 9px;
+  height: 9px;
+  background-color: #f3eeee;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 2px #f3eeee;
+  padding: 10px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.circle-active {
+  background-color: #ff6d33;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 2px #ff6d33;
+  z-index: 1;
+}

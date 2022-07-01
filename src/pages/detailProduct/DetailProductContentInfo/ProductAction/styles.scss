@@ -1,0 +1,9 @@
+.product-action{
+    display: flex;
+    gap: 30px;
+
+    &__btn{
+        height: 50px;
+        width: 170px;
+    }
+}

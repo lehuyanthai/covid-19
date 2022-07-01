@@ -1,0 +1,31 @@
+.feedback {
+  margin-bottom: 90px;
+  .feedback-list {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    gap: 30px;
+
+    .background {
+      height: 100%;
+      width: 40%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url('../../../assets/images/Bg-feedback.png');
+    }
+  }
+
+  .list-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+  }
+}

@@ -1,0 +1,18 @@
+.cart-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    padding: 40px 44px;
+
+    &__title{
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &__button{
+        font-size: 40px;
+        color: #989898;
+        cursor: pointer;
+    }
+}

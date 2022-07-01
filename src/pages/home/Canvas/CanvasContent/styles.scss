@@ -1,0 +1,46 @@
+.canvas-content {
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 170px;
+    transform: translateY(-50%);
+
+    &__subTitle{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    &__title{
+        margin-bottom: 35px;
+        color:#3A393E;
+        font-family: 'Nirmala';
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    &__description{
+        font-size: 22px;
+        margin-bottom: 53px;
+    }
+
+    &__button{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        &--btn{
+            height: 76px;
+            padding: 0 45px;
+            width: fit-content;
+        }
+
+        &--extra-info{
+            font-size: 22px;
+        }
+    }
+}
+
+.big-title{
+    font-size: 80px;
+}
+.orange-text{
+    color: #FF6D33;
+}

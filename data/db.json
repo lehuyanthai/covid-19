@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "email": "anthai@gmail.com",
+      "password": "$2a$10$HSx9fP4rLEyXeYAAr0bSKO.lHb7fsZMxla2quQ4ZLPBWUTtOn27ku",
+      "firstName": "asd",
+      "lastName": "le@ad.com",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Customized Reusable Face Mask",
+      "category": "n95-mask",
+      "price": 35,
+      "discount": 10,
+      "rating": 5,
+      "colors": ["#FF4646", "#9C46FF"],
+      "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookng. to make a type speing to vertu jlsoj fhdsu kflsd cimen book. It has survived not only five centuries, but also the leap  into verronic typesetting important. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently em Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes",
+      "customerReview": 10,
+      "images": [
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg",
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg",
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg",
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Customized Reusable Face Mask",
+      "category": "mask",
+      "price": 25,
+      "discount": 10,
+      "rating": 3.5,
+      "colors": ["#9C46FF"],
+      "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookng. to make a type speing to vertu jlsoj fhdsu kflsd cimen book. It has survived not only five centuries, but also the leap  into verronic typesetting important. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently em Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes",
+      "customerReview": 100,
+      "images": [
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg",
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg",
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg",
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Customized Reusable Face Mask",
+      "category": "mask",
+      "price": 6,
+      "discount": 10,
+      "rating": 5,
+      "colors": ["#FF4646"],
+      "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookng. to make a type speing to vertu jlsoj fhdsu kflsd cimen book. It has survived not only five centuries, but also the leap  into verronic typesetting important. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently em Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes",
+      "customerReview": 3,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0268/7382/3408/products/TRANSPARENTE_DT-N95-FH_82512aeb-242e-47d8-b74f-55bd13730be8.png?v=1637260048",
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg",
+        "https://www.cnet.com/a/img/resize/b0666f83d00da5299a146c771449ae1cae153830/2021/01/29/d65517e9-b8b5-4ae4-a555-9d54d2388431/005-double-mask-recommendations-new-mandate-n95-kn95-cloth-medical-masks-face.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "https://www.cnet.com/a/img/resize/fb6ba5da01b4d0661f8f3c1cdc9405e692362e03/2021/02/04/b4eb6a68-928f-453f-bc07-d86818ebbba5/kf94-mask.jpg?auto=webp&width=1200"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Customized Reusable Face Mask",
+      "category": "n95-mask",
+      "price": 3,
+      "discount": 7,
+      "rating": 5,
+      "colors": ["#4677FF", "#76FF46", "#FF46A9"],
+      "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookng. to make a type speing to vertu jlsoj fhdsu kflsd cimen book. It has survived not only five centuries, but also the leap  into verronic typesetting important. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently em Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes",
+      "customerReview": 3,
+      "images": [
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg",
+        "https://cdn.shopify.com/s/files/1/0268/7382/3408/products/TRANSPARENTE_DT-N95-FH_82512aeb-242e-47d8-b74f-55bd13730be8.png?v=1637260048",
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg",
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Customized Reusable Face Mask",
+      "category": "mask",
+      "price": 17,
+      "discount": 5,
+      "rating": 5,
+      "colors": [ "#76FF46", "#FF46A9"],
+      "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer tookng. to make a type speing to vertu jlsoj fhdsu kflsd cimen book. It has survived not only five centuries, but also the leap  into verronic typesetting important. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently em Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes",
+      "customerReview": 3,
+      "images": [
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg",
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg",
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg",
+        "https://m.media-amazon.com/images/I/61+ilDgVVwS._UX569_.jpg"
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "idProduct": "1",
+      "author": "Jayden Thomas",
+      "avatar": "https://images.immediate.co.uk/production/volatile/sites/3/2022/04/Screenshot-2022-05-10-at-11.13.42-b2ecc46.png?quality=90&webp=true&crop=161px,0px,1777px,1184px&resize=1200,800",
+      "rating": 4,
+      "createdAt": "2022-06-14 11:45:26.123",
+      "content": "Lorema asdkasdm akld msalkdmaskl ask aslk dnaskldn akld akl kalsnd kaln aksnd alksnd alknd aknlkan akndlak nask n"
+    },
+    {
+      "id": "2",
+      "idProduct": "1",
+      "author": "Stephen Curry",
+      "avatar": "https://images.immediate.co.uk/production/volatile/sites/3/2022/04/Screenshot-2022-05-10-at-11.13.42-b2ecc46.png?quality=90&webp=true&crop=161px,0px,1777px,1184px&resize=1200,800",
+      "rating": 4,
+      "createdAt": "2022-06-14 11:45:26.123",
+      "content": "Lorema asdkasdm akld msalkdmaskl ask aslk dnaskldn akld akl kalsnd kaln aksnd alksnd alknd aknlkan akndlak nask n"
+    },
+    {
+      "id": "3",
+      "idProduct": "2",
+      "author": "Lebron James",
+      "avatar": "https://images.immediate.co.uk/production/volatile/sites/3/2022/04/Screenshot-2022-05-10-at-11.13.42-b2ecc46.png?quality=90&webp=true&crop=161px,0px,1777px,1184px&resize=1200,800",
+      "rating": 4,
+      "createdAt": "2022-06-14 11:45:26.123",
+      "content": "Lorema asdkasdm akld msalkdmaskl ask aslk dnaskldn akld akl kalsnd kaln aksnd alksnd alknd aknlkan akndlak nask n"
+    },
+    {
+      "id": "4",
+      "idProduct": "3",
+      "author": "Klay Thomsonp",
+      "avatar": "https://images.immediate.co.uk/production/volatile/sites/3/2022/04/Screenshot-2022-05-10-at-11.13.42-b2ecc46.png?quality=90&webp=true&crop=161px,0px,1777px,1184px&resize=1200,800",
+      "rating": 4,
+      "createdAt": "2022-06-14 11:45:26.123",
+      "content": "Lorema asdkasdm akld msalkdmaskl ask aslk dnaskldn akld akl kalsnd kaln aksnd alksnd alknd aknlkan akndlak nask n"
+    },
+    {
+      "id": "5",
+      "idProduct": "4",
+      "author": "Andrew Wiggins",
+      "avatar": "https://images.immediate.co.uk/production/volatile/sites/3/2022/04/Screenshot-2022-05-10-at-11.13.42-b2ecc46.png?quality=90&webp=true&crop=161px,0px,1777px,1184px&resize=1200,800",
+      "rating": 4,
+      "createdAt": "2022-06-14 11:45:26.123",
+      "content": "Lorema asdkasdm akld msalkdmaskl ask aslk dnaskldn akld akl kalsnd kaln aksnd alksnd alknd aknlkan akndlak nask n"
+    },
+    {
+      "id": "asd4",
+      "idProduct": "2",
+      "author": "thai",
+      "avatar": "",
+      "rating": 100,
+      "createdAt": "2022-06-29T09:44:52.300Z",
+      "content": "asdojmasca;sckam;dfjdn;va"
+    },
+    {
+      "id": "asd1",
+      "idProduct": "2",
+      "author": "Thai",
+      "avatar": "",
+      "rating": 100,
+      "createdAt": "2022-06-29T09:59:06.943Z",
+      "content": "asd asdn ad nas npdpa"
+    },
+    {
+      "id": "comment2",
+      "idProduct": "4",
+      "author": "An Thai",
+      "avatar": "",
+      "rating": 80,
+      "createdAt": "2022-06-30T08:39:08.174Z",
+      "content": "asd"
+    }
+  ]
+}

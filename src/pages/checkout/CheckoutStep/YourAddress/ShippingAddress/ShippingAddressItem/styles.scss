@@ -1,0 +1,35 @@
+.shipping-address-item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 43px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    &--heading {
+      .heading {
+        font-size: 24px;
+        color: #434a5a;
+        margin-bottom: 15px;
+      }
+      .address {
+        font-size: 18px;
+        color: #7a7a7a;
+        flex-wrap: wrap;
+      }
+    }
+
+    .edit-button {
+      width: 120px;
+      height: 53px;
+      border: 2px solid #e9e8e9;
+    }
+
+    .disable {
+      background-color: #e9e8e9;
+      color: #434a5a;
+    }
+  }
+}

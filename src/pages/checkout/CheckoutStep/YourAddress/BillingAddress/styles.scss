@@ -1,0 +1,10 @@
+.billing-address {
+  border: #DEDCDC solid 1px;
+    padding: 21px 50px 15px;
+    margin-bottom: 60px;
+  &__label {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 33px;
+  }
+}
